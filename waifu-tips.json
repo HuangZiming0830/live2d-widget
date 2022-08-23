@@ -84,7 +84,7 @@
 		"selector": "a[href^='/categories']",
 		"text": ["要去看看 <span>{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
 	}, {
-		"selector": ".post-title-link",
+		"selector": "#articles .card-image",
 		"text": ["要看看 <span>{text}</span> 这篇文章吗？"]
 	}, {
 		"selector": "a[class='read more']",
@@ -117,28 +117,28 @@
 		"selector": "#needsharebutton-postbottom .btn",
 		"text": ["好东西要让更多人知道才行哦。", "觉得文章有帮助的话，可以分享给更多需要的朋友呢。"]
 	}, {
-		"selector": ".need-share-button_weibo",
+		"selector": "a[class$='icon_weibo']",
 		"text": ["微博？来分享一波喵！"]
 	}, {
-		"selector": ".need-share-button_wechat",
+		"selector": "a[class$='icon_wechat']",
 		"text": ["分享到微信吧！"]
 	}, {
-		"selector": ".need-share-button_douban",
+		"selector": "a[class$='icon_douban']",
 		"text": ["分享到豆瓣好像也不错！"]
 	}, {
-		"selector": ".need-share-button_qqzone",
+		"selector": "a[class$='icon_qq']",
 		"text": ["QQ 空间，一键转发，耶～"]
 	}, {
-		"selector": ".need-share-button_twitter",
+		"selector": "a[class$='icon_twitter']
 		"text": ["Twitter？好像是不存在的东西？"]
 	}, {
-		"selector": ".need-share-button_facebook",
+		"selector": "a[class$='icon_facebook']",
 		"text": ["emmm…FB 好像也是不存在的东西？"]
 	}, {
-		"selector": ".article-row div[class='right-badge']",
+		"selector": "div[class*='article-row'] div[class*='right-badge']",
 		"text": ["来看看下一篇文章吧。", "点它可以看下一篇文章哦！", "要翻到下一篇文章吗？"]
 	}, {
-		"selector": ".article-row div[class='left-badge']",
+		"selector": "div[class*='article-row'] div[class*='left-badge']",
 		"text": ["来看看上一篇文章吧。", "点它可以看上一篇文章哦！", "要翻到上一篇文章吗？"]
 	}, {
 		"selector": ".extend.next",
@@ -165,10 +165,10 @@
 		"selector": ".vemoji-btn",
 		"text": ["要插入一个萌萌哒的表情吗？", "要来一发表情吗？"]
 	}, {
-		"selector": ".tabnav-tabs .tab-preview",
+		"selector": ".tabnav-tabs button[class*='tab-preview']",
 		"text": ["要预览一下你的发言吗？", "快看看你的评论有多少负熵！"]
 	}, {
-		"selector": ".btn-primary",
+		"selector": "button[class*='btn-primary']",
 		"text": ["评论没有审核，要对自己的发言负责哦～", "要提交了吗，请耐心等待回复哦～"]
 	}, {
 		"selector": ".vcontent",
