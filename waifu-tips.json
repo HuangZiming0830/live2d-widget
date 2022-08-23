@@ -78,16 +78,16 @@
 		"selector": "a[href^='mailto']",
 		"text": ["邮件我会及时回复的！", "点击就可以发送邮件啦～"]
 	}, {
-		"selector": "a[href^='/tags/']",
+		"selector": "a[href^='/tags']",
 		"text": ["要去看看 <span>{text}</span> 标签么？", "点它可以查看此标签下的所有文章哟！"]
 	}, {
-		"selector": "a[href^='/categories/']",
+		"selector": "a[href^='/categories']",
 		"text": ["要去看看 <span>{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
 	}, {
 		"selector": ".post-title-link",
 		"text": ["要看看 <span>{text}</span> 这篇文章吗？"]
 	}, {
-		"selector": "a[rel='contents']",
+		"selector": "a[class='read more']",
 		"text": ["点击来阅读全文哦。"]
 	}, {
 		"selector": "a[itemprop='discussionUrl']",
@@ -99,7 +99,7 @@
 		"selector": ".container a[href^='http'], .nav-link .nav-text",
 		"text": ["要去看看 <span>{text}</span> 么？", "去 <span>{text}</span> 逛逛吧。", "到 <span>{text}</span> 看看吧。"]
 	}, {
-		"selector": ".back-to-top",
+		"selector": "#backTop",
 		"text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
 	}, {
 		"selector": ".reward-container",
@@ -135,10 +135,10 @@
 		"selector": ".need-share-button_facebook",
 		"text": ["emmm…FB 好像也是不存在的东西？"]
 	}, {
-		"selector": ".post-nav-item a[rel='next']",
+		"selector": ".article-row div[class='right-badge']",
 		"text": ["来看看下一篇文章吧。", "点它可以看下一篇文章哦！", "要翻到下一篇文章吗？"]
 	}, {
-		"selector": ".post-nav-item a[rel='prev']",
+		"selector": ".article-row div[class='left-badge']",
 		"text": ["来看看上一篇文章吧。", "点它可以看上一篇文章哦！", "要翻到上一篇文章吗？"]
 	}, {
 		"selector": ".extend.next",
@@ -156,7 +156,7 @@
 		"selector": ".vlink",
 		"text": ["快快告诉我你的家在哪里，好让我去参观参观！"]
 	}, {
-		"selector": ".veditor",
+		"selector": ".comment-body",
 		"text": ["想要去评论些什么吗？", "要说点什么吗？", "觉得博客不错？快来留言和主人交流吧！"]
 	}, {
 		"selector": ".vcontrol a",
@@ -165,10 +165,10 @@
 		"selector": ".vemoji-btn",
 		"text": ["要插入一个萌萌哒的表情吗？", "要来一发表情吗？"]
 	}, {
-		"selector": ".vpreview-btn",
+		"selector": ".tabnav-tabs .tab-preview",
 		"text": ["要预览一下你的发言吗？", "快看看你的评论有多少负熵！"]
 	}, {
-		"selector": ".vsubmit",
+		"selector": ".btn-primary",
 		"text": ["评论没有审核，要对自己的发言负责哦～", "要提交了吗，请耐心等待回复哦～"]
 	}, {
 		"selector": ".vcontent",
