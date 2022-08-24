@@ -42,7 +42,7 @@
 		"selector": ".menu-item-friends a",
 		"text": ["这是我的朋友们哦ヾ(◍°∇°◍)ﾉﾞ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
 	}, {
-		"selector": "a[href*='#searchModal']",
+		"selector": "#searchIcon",
 		"text": ["找不到想看的内容？搜索看看吧！", "在找什么东西呢，需要帮忙吗？"]
 	}, {
 		"selector": ".menu-item a",
@@ -69,7 +69,7 @@
 		"selector": ".fancybox img, img.medium-zoom-image",
 		"text": ["点击图片可以放大呢！"]
 	}, {
-		"selector": ".copy-btn",
+		"selector": ".copy_copy",
 		"text": ["代码可以直接点击复制哟。"]
 	}, {
 		"selector": ".highlight .table-container, .gist",
@@ -99,7 +99,7 @@
 		"selector": ".container a[href^='http'], .nav-link .nav-text",
 		"text": ["要去看看 <span>{text}</span> 么？", "去 <span>{text}</span> 逛逛吧。", "到 <span>{text}</span> 看看吧。"]
 	}, {
-		"selector": "#backTop",
+		"selector": "#backTop .btn-floating",
 		"text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
 	}, {
 		"selector": ".reward-container",
@@ -123,7 +123,7 @@
 		"selector": "a[class$='icon_wechat']",
 		"text": ["分享到微信吧！"]
 	}, {
-		"selector": "a[class$='icon_douban']",
+		"selector": ".icon_douban",
 		"text": ["分享到豆瓣好像也不错！"]
 	}, {
 		"selector": "a[class$='icon_qq']",
@@ -132,10 +132,10 @@
 		"selector": "a[class$='icon_twitter']
 		"text": ["Twitter？好像是不存在的东西？"]
 	}, {
-		"selector": "a[class$='icon_facebook']",
+		"selector": ".icon_facebook",
 		"text": ["emmm…FB 好像也是不存在的东西？"]
 	}, {
-		"selector": "div[class*='article-row'] div[class*='right-badge']",
+		"selector": ".article-row .right-badge",
 		"text": ["来看看下一篇文章吧。", "点它可以看下一篇文章哦！", "要翻到下一篇文章吗？"]
 	}, {
 		"selector": "div[class*='article-row'] div[class*='left-badge']",
@@ -168,7 +168,7 @@
 		"selector": ".tabnav-tabs button[class*='tab-preview']",
 		"text": ["要预览一下你的发言吗？", "快看看你的评论有多少负熵！"]
 	}, {
-		"selector": "button[class*='btn-primary']",
+		"selector": ".btn-primary",
 		"text": ["评论没有审核，要对自己的发言负责哦～", "要提交了吗，请耐心等待回复哦～"]
 	}, {
 		"selector": ".vcontent",
