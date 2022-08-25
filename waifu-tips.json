@@ -84,7 +84,7 @@
 		"selector": "a[href^='/categories']",
 		"text": ["要去看看 <span>{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
 	}, {
-		"selector": "#articles .card-image",
+		"selector": ".card",
 		"text": ["要看看 <span>{text}</span> 这篇文章吗？"]
 	}, {
 		"selector": ".row a[class='btn']",
@@ -99,7 +99,7 @@
 		"selector": ".cover-social-link a[href^='http']",
 		"text": ["要去看看 <span>{text}</span> 么？", "去 <span>{text}</span> 逛逛吧。", "到 <span>{text}</span> 看看吧。"]
 	}, {
-		"selector": "#backTop .btn-floating",
+		"selector": "#backTop",
 		"text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
 	}, {
 		"selector": ".reward-container",
