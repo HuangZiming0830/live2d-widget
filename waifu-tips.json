@@ -117,7 +117,7 @@
 		"selector": "#needsharebutton-postbottom .btn",
 		"text": ["好东西要让更多人知道才行哦。", "觉得文章有帮助的话，可以分享给更多需要的朋友呢。"]
 	}, {
-		"selector": "a[class$='icon_weibo']",
+		"selector": ".article-share .icon_weibo",
 		"text": ["微博？来分享一波喵！"]
 	}, {
 		"selector": "a[class$='icon_wechat']",
@@ -165,7 +165,7 @@
 		"selector": ".vemoji-btn",
 		"text": ["要插入一个萌萌哒的表情吗？", "要来一发表情吗？"]
 	}, {
-		"selector": ".tabnav-tabs button[class*='tab-preview']",
+		"selector": "#utteranc-container .tabnav-tabs .tab-preview",
 		"text": ["要预览一下你的发言吗？", "快看看你的评论有多少负熵！"]
 	}, {
 		"selector": ".btn-primary",
