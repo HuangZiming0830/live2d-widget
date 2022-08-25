@@ -87,7 +87,7 @@
 		"selector": "#articles .card-image",
 		"text": ["要看看 <span>{text}</span> 这篇文章吗？"]
 	}, {
-		"selector": "a[class*='read more']",
+		"selector": ".row a[class='btn']",
 		"text": ["点击来阅读全文哦。"]
 	}, {
 		"selector": "a[itemprop='discussionUrl']",
@@ -96,7 +96,7 @@
 		"selector": ".beian a",
 		"text": ["我也是有户口的人哦。", "我的主人可是遵纪守法的好主人。"]
 	}, {
-		"selector": ".container a[href^='http'], .nav-link .nav-text",
+		"selector": ".cover-social-link a[href^='http']",
 		"text": ["要去看看 <span>{text}</span> 么？", "去 <span>{text}</span> 逛逛吧。", "到 <span>{text}</span> 看看吧。"]
 	}, {
 		"selector": "#backTop .btn-floating",
